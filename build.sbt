@@ -13,14 +13,14 @@ scalaVersion := "2.10.0"
 libraryDependencies ++= Seq(
     "org.mongojack" % "mongojack" % "2.0.0-RC5",
     "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.1.3",
-    "play" %% "play" % "2.1.0" % "provided"
+    "play" %% "play" % "2.1.1" % "provided"
 )
 
 // Test dependencies
 
 libraryDependencies ++= Seq(
     "org.specs2" %% "specs2" % "1.13" % "test",
-    "play" %% "play-test" % "2.1.0" % "test"
+    "play" %% "play-test" % "2.1.1" % "test"
 )
 
 // Configuration required for deploying to sonatype
